@@ -285,7 +285,6 @@ export const swapSimulationResponse = (
 ) => {
   let result = '';
   swaps = swaps.flat();
-  const chainId = swaps[0].chainId;
   const length = swaps.length;
   let successfulSwaps = 0;
 
